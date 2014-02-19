@@ -11,7 +11,7 @@ An example app that uses the [Couchbase Lite Android](https://github.com/couchba
 
 If Couchbase Lite is configured to sync it's changes with a Sync Gateway, then all changes will automatically background sync bi-directionally such that any changes on either device will propagate to the other.
 
-## Prequisites
+## Prerequisites
 
 * Install [Android Studio](http://developer.android.com/sdk/installing/studio.html)
 * (optional) Install [Sync Gateway](https://github.com/couchbaselabs/sync_gateway) to use the sync feature.
@@ -62,7 +62,7 @@ GrocerySync can be configured to do a two way sync all of its data to a Sync Gat
 
 ## Change the dependency from Maven -> Direct code dependency
 
-By default, this project depends on the Couchbase Lite maven artifacts.  However, it can also depend on the CBLite code directly, which is useful if you want to debug into the CBLIte code (or just browse the code).
+By default, this project depends on the Couchbase Lite maven artifacts.  However, it can also depend on the CBLite code directly, which is useful if you want to debug into the CBLite code (or just browse the code).
 
 See the build.gradle and settings.gradle files for instructions on how to do this.
 
